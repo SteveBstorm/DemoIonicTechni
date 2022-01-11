@@ -1,0 +1,7 @@
+{
+  "name": "TechniDemoIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

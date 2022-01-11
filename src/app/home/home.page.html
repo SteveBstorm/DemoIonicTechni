@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  {{prop | uppercase}}
+  <hr />
+  <ion-button size="small" fill="outline" (click)="openActionSheet()">Open Actionsheet</ion-button>
+</ion-content>
